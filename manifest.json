@@ -1,0 +1,10 @@
+{
+  "name": "Github Linker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Detect Github repository name and add link to it",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
